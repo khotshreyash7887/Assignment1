@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.contianer{
+    margin: 30px 40px;
+    background-color: grey;
+    height: 45rem;
+    padding: 20px;
+}
+
+.contianer h1{
+    margin-bottom: 20px;
+     font-size: 60px;
+     text-align: center;
+     text-decoration: dashed black;
+}
+
+.contianer p{
+    padding: 0 30px;
+    font-size: 25px;
+    line-height: 3rem;
+}
+
+.list{
+    padding: 20px 0;
+    list-style: none;
+    color: white;
+}
+
+.list-items{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;   
+}
+
+.list-items a{
+    text-decoration: none;
+    color: black;   
+    cursor: pointer;
+
+}
+
+.list-items a:hover{
+    color: red;
+}
