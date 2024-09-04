@@ -1,49 +1,82 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
+}
+
+body{
+
+ 
 }
 
 .contianer{
-    margin: 30px 40px;
+    margin: 20px 40px;
     background-color: grey;
-    height: 45rem;
-    padding: 20px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .contianer h1{
     margin-bottom: 20px;
-     font-size: 60px;
-     text-align: center;
-     text-decoration: dashed black;
+    font-size: 50px;
+    text-align: center;
 }
 
 .contianer p{
     padding: 0 30px;
-    font-size: 25px;
-    line-height: 3rem;
+    font-size: 23px;
+    line-height: 2.5rem;
 }
 
 .list{
     padding: 20px 0;
     list-style: none;
     color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
 }
 
 .list-items{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 25px;   
+    font-size: 22px; 
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 
 .list-items a{
     text-decoration: none;
     color: black;   
     cursor: pointer;
-
 }
 
 .list-items a:hover{
-    color: red;
+   color: red;
+}
+/* ------------------------- */
+.animal-video{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem; 
+}
+
+.video1{
+    margin-bottom: 20px;
+}
+
+.video2{
+    margin-bottom: 15px;
+}
+
+.b-img{
+    width: 32rem;
+    height: 15rem;
+    margin-bottom: 10px;
+    object-fit: contain;
 }
